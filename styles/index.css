@@ -1,5 +1,37 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+}
+
+html,
+body {
+  /* TODO: font-family */
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Header/ Navbar */
+header {
+  min-height: 70px;
+  background-color: #C37960;
+}
+
+header nav i {
+  margin-left: 1.5rem;
+}
+
+header nav a {
+  font-size: 1.8rem;
+  color: #333;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  font-weight: 600;
+  color: #333;
+  border-bottom: .1em solid #333;
+}
+
+/* For Debugging */
+.debug {
+  border: 1px solid black;
 }
