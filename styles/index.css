@@ -13,6 +13,8 @@ body {
 header {
   min-height: 70px;
   background-color: #C37960;
+  position: fixed;
+  top: 0px
 }
 
 header nav i {
