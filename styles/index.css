@@ -33,6 +33,22 @@ header nav a:hover {
   border-bottom: .1em solid #333;
 }
 
+/* Main */
+main {
+  min-height: 100vh;
+}
+
+
+/* Footer */
+footer {
+  min-height: 150px;
+  background-color: #C37960;
+}
+
+footer p {
+  font-size: 1.4rem;
+}
+
 /* For Debugging */
 .debug {
   border: 1px solid black;
