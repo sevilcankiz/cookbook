@@ -1,0 +1,38 @@
+html,
+body {
+  /* TODO: font-family */
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+header {
+    min-height: 70px;
+    background-color: #C37960;
+  }
+  
+  header nav i {
+    margin-left: 1.5rem;
+  }
+  
+  header nav a {
+    font-size: 1.8rem;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    font-weight: 600;
+    color: #333;
+    opacity: 0.7;
+    border-bottom: .1em solid #333;
+  }
+
+  footer {
+    min-height: 150px;
+    background-color: #C37960;
+    margin-top: 12rem;
+  }
+  
+  footer p {
+    font-size: 1.4rem;
+  }
