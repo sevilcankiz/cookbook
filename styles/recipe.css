@@ -2,3 +2,7 @@
 .table-hover tbody tr:hover th {
   background-color: #F0D7A7;
 }
+
+.card-body .card-text ol li {
+  line-height: 1.8;
+}
